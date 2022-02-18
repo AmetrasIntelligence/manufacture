@@ -49,7 +49,7 @@ class MrpProduction(models.Model):
             date_end = date.replace(hour=pt.mo_grouping_max_hour, minute=0, second=0)
         else:
             date_end = date + relativedelta(days=1)
-            date_end = date.replace(hour=pt.mo_grouping_max_hour, minute=0, second=0)
+            date_end = date_end.replace(hour=pt.mo_grouping_max_hour, minute=0, second=0)
         date_start = date_end - relativedelta(days=pt.mo_grouping_interval)
         domain += [
             ("date_planned_finished", ">", fields.Datetime.to_string(date_start)),
