@@ -1,38 +1,37 @@
-# Translation of Odoo Server.
-# This file contains the translation of the following modules:
-# 	* mrp_bom_tracking
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 12.0\n"
+"Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: Automatically generated\n"
-"Language-Team: none\n"
-"Language: de\n"
+"Last-Translator: \n"
+"Language-Team: German\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: ametras-xsolutions\n"
+"X-Crowdin-Project-ID: 530964\n"
+"X-Crowdin-Language: de\n"
+"X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/mrp_bom_tracking/i18n/mrp_bom_tracking.pot\n"
+"X-Crowdin-File-ID: 3408\n"
+"Language: de_DE\n"
+"PO-Revision-Date: 2022-08-06 21:48\n"
 
 #. module: mrp_bom_tracking
 #: model_terms:ir.ui.view,arch_db:mrp_bom_tracking.track_bom_template_2
-msgid ""
-":\n"
+msgid ":\n"
 "                New component<br/>"
 msgstr ""
 
 #. module: mrp_bom_tracking
 #: model_terms:ir.ui.view,arch_db:mrp_bom_tracking.track_bom_template_2
-msgid ""
-":\n"
+msgid ":\n"
 "                Removed component<br/>"
 msgstr ""
 
 #. module: mrp_bom_tracking
 #: model_terms:ir.ui.view,arch_db:mrp_bom_tracking.track_bom_line_template
 #: model_terms:ir.ui.view,arch_db:mrp_bom_tracking.track_bom_template
-msgid ""
-"<br/>\n"
+msgid "<br/>\n"
 "                    Product Unit of Measure:"
 msgstr ""
 
@@ -64,8 +63,7 @@ msgstr ""
 
 #. module: mrp_bom_tracking
 #: model:ir.model.fields,help:mrp_bom_tracking.field_mrp_bom__product_id
-msgid ""
-"If a product variant is defined the BOM is available only for this product."
+msgid "If a product variant is defined the BOM is available only for this product."
 msgstr ""
 
 #. module: mrp_bom_tracking
@@ -76,7 +74,7 @@ msgstr ""
 #. module: mrp_bom_tracking
 #: model:ir.model.fields,field_description:mrp_bom_tracking.field_mrp_bom__product_tmpl_id
 msgid "Product"
-msgstr ""
+msgstr "Produkt"
 
 #. module: mrp_bom_tracking
 #: model_terms:ir.ui.view,arch_db:mrp_bom_tracking.track_bom_line_template
@@ -87,28 +85,25 @@ msgstr ""
 #. module: mrp_bom_tracking
 #: model:ir.model.fields,field_description:mrp_bom_tracking.field_mrp_bom__product_id
 msgid "Product Variant"
-msgstr ""
+msgstr "Produktvariante"
 
 #. module: mrp_bom_tracking
 #: model:ir.model.fields,field_description:mrp_bom_tracking.field_mrp_bom__product_qty
 msgid "Quantity"
-msgstr ""
+msgstr "Menge"
 
 #. module: mrp_bom_tracking
 #: model:ir.model.fields,field_description:mrp_bom_tracking.field_mrp_bom__code
 msgid "Reference"
-msgstr ""
+msgstr "Referenz"
 
 #. module: mrp_bom_tracking
 #: model:ir.model.fields,help:mrp_bom_tracking.field_mrp_bom__picking_type_id
-msgid ""
-"When a procurement has a ‘produce’ route with a operation type set, it will "
-"try to create a Manufacturing Order for that product using a BoM of the same "
-"operation type. That allows to define stock rules which trigger different "
-"manufacturing orders with different BoMs."
+msgid "When a procurement has a ‘produce’ route with a operation type set, it will try to create a Manufacturing Order for that product using a BoM of the same operation type. That allows to define stock rules which trigger different manufacturing orders with different BoMs."
 msgstr ""
 
 #. module: mrp_bom_tracking
 #: model_terms:ir.ui.view,arch_db:mrp_bom_tracking.track_bom_template
 msgid "component<br/>"
 msgstr ""
+
