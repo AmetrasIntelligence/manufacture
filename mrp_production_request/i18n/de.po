@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/mrp_production_request/i18n/mrp_production_request.pot\n"
 "X-Crowdin-File-ID: 3422\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-07 00:00\n"
+"PO-Revision-Date: 2022-08-08 02:14\n"
 
 #. module: mrp_production_request
 #: model_terms:ir.actions.act_window,help:mrp_production_request.mrp_production_request_action
@@ -326,7 +326,7 @@ msgstr "Fehler beim Versenden der Nachrichten"
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__message_ids
 msgid "Messages"
-msgstr "Mitteilungen"
+msgstr "Nachrichten"
 
 #. module: mrp_production_request
 #: model:ir.model,name:mrp_production_request.model_stock_warehouse_orderpoint
