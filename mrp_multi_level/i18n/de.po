@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/mrp_multi_level/i18n/mrp_multi_level.pot\n"
 "X-Crowdin-File-ID: 3410\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-11 10:45\n"
+"PO-Revision-Date: 2022-08-11 14:44\n"
 
 #. module: mrp_multi_level
 #: model:product.product,name:mrp_multi_level.product_product_av_11
@@ -750,7 +750,7 @@ msgstr "Menge muss positiv sein."
 #. module: mrp_multi_level
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__ready
 msgid "Ready"
-msgstr ""
+msgstr "Bereit"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_planned_order__order_release_date
@@ -951,7 +951,7 @@ msgstr "für MRP verifiziert"
 #. module: mrp_multi_level
 #: model:ir.model.fields.selection,name:mrp_multi_level.selection__mrp_move__state__waiting
 msgid "Waiting"
-msgstr ""
+msgstr "Wartend"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_area__warehouse_id
