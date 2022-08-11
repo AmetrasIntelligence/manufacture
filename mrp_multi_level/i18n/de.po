@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/mrp_multi_level/i18n/mrp_multi_level.pot\n"
 "X-Crowdin-File-ID: 3410\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-11 14:44\n"
+"PO-Revision-Date: 2022-08-11 15:54\n"
 
 #. module: mrp_multi_level
 #: model:product.product,name:mrp_multi_level.product_product_av_11
@@ -277,7 +277,7 @@ msgstr "Inspektionsverzögerung"
 #. module: mrp_multi_level
 #: model:ir.model,name:mrp_multi_level.model_stock_location
 msgid "Inventory Locations"
-msgstr ""
+msgstr "Lagerstandorte"
 
 #. module: mrp_multi_level
 #: model:ir.model.fields,field_description:mrp_multi_level.field_mrp_inventory_procure__item_ids
