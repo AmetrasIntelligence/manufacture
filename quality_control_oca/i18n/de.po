@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/quality_control_oca/i18n/quality_control_oca.pot\n"
 "X-Crowdin-File-ID: 3438\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-12 12:42\n"
+"PO-Revision-Date: 2022-08-12 15:01\n"
 
 #. module: quality_control_oca
 #: model:ir.model,name:quality_control_oca.model_qc_trigger_line
@@ -112,7 +112,7 @@ msgstr "Unternehmen"
 #. module: quality_control_oca
 #: model:ir.ui.menu,name:quality_control_oca.menu_qc_config
 msgid "Configuration"
-msgstr ""
+msgstr "Konfiguration"
 
 #. module: quality_control_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_oca.qc_inspection_form_view
