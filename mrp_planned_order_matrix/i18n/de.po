@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/mrp_planned_order_matrix/i18n/mrp_planned_order_matrix.pot\n"
 "X-Crowdin-File-ID: 3414\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:48\n"
+"PO-Revision-Date: 2022-08-12 08:17\n"
 
 #. module: mrp_planned_order_matrix
 #: model_terms:ir.ui.view,arch_db:mrp_planned_order_matrix.mrp_planned_order_wizard_view_form
@@ -169,7 +169,7 @@ msgstr "Produkt-Parameter"
 #. module: mrp_planned_order_matrix
 #: model_terms:ir.ui.view,arch_db:mrp_planned_order_matrix.mrp_planned_order_wizard_view_form
 msgid "Products"
-msgstr ""
+msgstr "Produkte"
 
 #. module: mrp_planned_order_matrix
 #: model:ir.model.fields,field_description:mrp_planned_order_matrix.field_mrp_planned_order_sheet_line__product_qty
