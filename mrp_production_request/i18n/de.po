@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/mrp_production_request/i18n/mrp_production_request.pot\n"
 "X-Crowdin-File-ID: 3422\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-11 14:44\n"
+"PO-Revision-Date: 2022-08-16 15:54\n"
 
 #. module: mrp_production_request
 #: model_terms:ir.actions.act_window,help:mrp_production_request.mrp_production_request_action
@@ -660,7 +660,7 @@ msgstr ""
 #. module: mrp_production_request
 #: model:res.groups,name:mrp_production_request.group_mrp_production_request_user
 msgid "User"
-msgstr ""
+msgstr "Benutzer"
 
 #. module: mrp_production_request
 #: model:ir.model.fields,field_description:mrp_production_request.field_mrp_production_request__website_message_ids
