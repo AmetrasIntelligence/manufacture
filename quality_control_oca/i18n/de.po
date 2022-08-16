@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/quality_control_oca/i18n/quality_control.pot\n"
 "X-Crowdin-File-ID: 3436\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-12 15:01\n"
+"PO-Revision-Date: 2022-08-16 15:54\n"
 
 #. module: quality_control
 #: model:ir.model,name:quality_control.model_qc_trigger_line
@@ -887,7 +887,7 @@ msgstr "Mengeneinheit"
 #. module: quality_control
 #: model:res.groups,name:quality_control.group_quality_control_user
 msgid "User"
-msgstr ""
+msgstr "Benutzer"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_qc_inspection_line__valid_values
