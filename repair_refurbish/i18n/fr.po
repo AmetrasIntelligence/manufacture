@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ametras-xsolutions\n"
 "Report-Msgid-Bugs-To: \n"
-"Last-Translator: \n"
+"Last-Translator: <>\n"
 "Language-Team: French\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -11,92 +11,78 @@ msgstr ""
 "X-Crowdin-Project: ametras-xsolutions\n"
 "X-Crowdin-Project-ID: 530964\n"
 "X-Crowdin-Language: fr\n"
-"X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/repair_refurbish/i18n/repair_refurbish.pot\n"
-"X-Crowdin-File-ID: 3448\n"
+"X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/repair_refurbish/i18n/mrp_repair_refurbish.pot\n"
+"X-Crowdin-File-ID: 3446\n"
 "Language: fr_FR\n"
-"PO-Revision-Date: 2022-09-19 18:06\n"
+"PO-Revision-Date: 2022-09-20 13:08\n"
 
-#. module: repair_refurbish
-#: model:ir.model.fields,field_description:repair_refurbish.field_repair_order__location_dest_id
-msgid "Delivery Location"
-msgstr ""
-
-#. module: repair_refurbish
-#: model:ir.model,name:repair_refurbish.model_product_product
+#. module: mrp_repair_refurbish
+#: model:ir.model,name:mrp_repair_refurbish.model_product_product
 msgid "Product"
 msgstr "Produit"
 
-#. module: repair_refurbish
-#: model:ir.model,name:repair_refurbish.model_stock_move_line
-msgid "Product Moves (Stock Move Line)"
-msgstr "Déplacements de produits (ligne de transfert de stock)"
-
-#. module: repair_refurbish
-#: model:ir.model,name:repair_refurbish.model_product_template
+#. module: mrp_repair_refurbish
+#: model:ir.model,name:mrp_repair_refurbish.model_product_template
 msgid "Product Template"
 msgstr ""
 
-#. module: repair_refurbish
-#: model_terms:ir.ui.view,arch_db:repair_refurbish.product_normal_form_view
-#: model_terms:ir.ui.view,arch_db:repair_refurbish.product_template_only_form_view
+#. module: mrp_repair_refurbish
+#: model:ir.ui.view,arch_db:mrp_repair_refurbish.product_normal_form_view
+#: model:ir.ui.view,arch_db:mrp_repair_refurbish.product_template_only_form_view
+#: model:stock.location,name:mrp_repair_refurbish.stock_location_refurbish
 msgid "Refurbish"
 msgstr ""
 
-#. module: repair_refurbish
-#: model:ir.model.fields,field_description:repair_refurbish.field_product_product__property_stock_refurbish
-#: model:ir.model.fields,field_description:repair_refurbish.field_product_template__property_stock_refurbish
+#. module: mrp_repair_refurbish
+#: model:ir.model.fields,field_description:mrp_repair_refurbish.field_product_product_property_stock_refurbish
+#: model:ir.model.fields,field_description:mrp_repair_refurbish.field_product_template_property_stock_refurbish
 msgid "Refurbish Location"
 msgstr ""
 
-#. module: repair_refurbish
-#: model:ir.model.fields,field_description:repair_refurbish.field_repair_order__refurbish_location_dest_id
+#. module: mrp_repair_refurbish
+#: model:ir.model.fields,field_description:mrp_repair_refurbish.field_mrp_repair_refurbish_location_dest_id
 msgid "Refurbished Delivery Location"
 msgstr ""
 
-#. module: repair_refurbish
-#: model:ir.model.fields,field_description:repair_refurbish.field_repair_order__refurbish_move_id
+#. module: mrp_repair_refurbish
+#: model:ir.model.fields,field_description:mrp_repair_refurbish.field_mrp_repair_refurbish_move_id
 msgid "Refurbished Inventory Move"
 msgstr ""
 
-#. module: repair_refurbish
-#: model:ir.model.fields,field_description:repair_refurbish.field_repair_order__refurbish_lot_id
+#. module: mrp_repair_refurbish
+#: model:ir.model.fields,field_description:mrp_repair_refurbish.field_mrp_repair_refurbish_lot_id
 msgid "Refurbished Lot"
 msgstr ""
 
-#. module: repair_refurbish
-#: model:ir.model.fields,field_description:repair_refurbish.field_product_product__refurbish_product_id
-#: model:ir.model.fields,field_description:repair_refurbish.field_product_template__refurbish_product_id
+#. module: mrp_repair_refurbish
+#: model:ir.model.fields,field_description:mrp_repair_refurbish.field_product_product_refurbish_product_id
+#: model:ir.model.fields,field_description:mrp_repair_refurbish.field_product_template_refurbish_product_id
 msgid "Refurbished Product"
 msgstr ""
 
-#. module: repair_refurbish
-#: model:ir.model.fields,field_description:repair_refurbish.field_repair_order__refurbish_product_id
+#. module: mrp_repair_refurbish
+#: model:ir.model.fields,field_description:mrp_repair_refurbish.field_mrp_repair_refurbish_product_id
 msgid "Refurbished product"
 msgstr ""
 
-#. module: repair_refurbish
-#: model:ir.model,name:repair_refurbish.model_repair_line
-msgid "Repair Line (parts)"
+#. module: mrp_repair_refurbish
+#: model:ir.model,name:mrp_repair_refurbish.model_mrp_repair_line
+msgid "Repair Line"
 msgstr ""
 
-#. module: repair_refurbish
-#: model:ir.model,name:repair_refurbish.model_repair_order
+#. module: mrp_repair_refurbish
+#: model:ir.model,name:mrp_repair_refurbish.model_mrp_repair
 msgid "Repair Order"
 msgstr ""
 
-#. module: repair_refurbish
-#: model:ir.model,name:repair_refurbish.model_stock_move
-msgid "Stock Move"
-msgstr "Mouvement du stock"
-
-#. module: repair_refurbish
-#: model:ir.model.fields,help:repair_refurbish.field_product_product__property_stock_refurbish
-#: model:ir.model.fields,help:repair_refurbish.field_product_template__property_stock_refurbish
+#. module: mrp_repair_refurbish
+#: model:ir.model.fields,help:mrp_repair_refurbish.field_product_product_property_stock_refurbish
+#: model:ir.model.fields,help:mrp_repair_refurbish.field_product_template_property_stock_refurbish
 msgid "This stock location will be used, instead of the default one, as the source location for stock moves generated by repair orders when refurbishing takes place."
 msgstr ""
 
-#. module: repair_refurbish
-#: model:ir.model.fields,field_description:repair_refurbish.field_repair_order__to_refurbish
+#. module: mrp_repair_refurbish
+#: model:ir.model.fields,field_description:mrp_repair_refurbish.field_mrp_repair_to_refurbish
 msgid "To Refurbish"
 msgstr ""
 
