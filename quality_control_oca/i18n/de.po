@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/quality_control_oca/i18n/quality_control.pot\n"
 "X-Crowdin-File-ID: 3436\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-10-05 09:29\n"
+"PO-Revision-Date: 2022-10-05 13:11\n"
 
 #. module: quality_control
 #: model:ir.model,name:quality_control.model_qc_trigger_line
@@ -838,7 +838,7 @@ msgstr ""
 #. module: quality_control
 #: selection:qc.inspection,activity_state:0
 msgid "Today"
-msgstr ""
+msgstr "Heute"
 
 #. module: quality_control
 #: model:ir.model.fields,field_description:quality_control.field_qc_trigger_line__trigger
