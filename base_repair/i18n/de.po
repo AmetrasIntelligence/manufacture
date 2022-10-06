@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/base_repair/i18n/base_repair.pot\n"
 "X-Crowdin-File-ID: 3396\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:47\n"
+"PO-Revision-Date: 2022-10-06 07:45\n"
 
 #. module: base_repair
 #: model:ir.model.fields,help:base_repair.field_repair_order__date_repair
@@ -50,5 +50,5 @@ msgstr ""
 #. module: base_repair
 #: model_terms:ir.ui.view,arch_db:base_repair.view_repair_order_search
 msgid "Responsible User"
-msgstr ""
+msgstr "Verantwortlicher Nutzer"
 
