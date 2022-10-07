@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/stock_picking_product_kit_helper/i18n/stock_picking_product_kit_helper.pot\n"
 "X-Crowdin-File-ID: 3450\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:48\n"
+"PO-Revision-Date: 2022-10-07 05:52\n"
 
 #. module: stock_picking_product_kit_helper
 #: model:ir.model,name:stock_picking_product_kit_helper.model_stock_picking_product_kit_helper
@@ -140,7 +140,7 @@ msgstr ""
 #. module: stock_picking_product_kit_helper
 #: model:ir.model,name:stock_picking_product_kit_helper.model_stock_picking
 msgid "Transfer"
-msgstr ""
+msgstr "Transfer"
 
 #. module: stock_picking_product_kit_helper
 #: model:ir.model.fields,help:stock_picking_product_kit_helper.field_stock_picking__has_product_kit
