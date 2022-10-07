@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/quality_control_stock_oca/i18n/quality_control_stock_oca.pot\n"
 "X-Crowdin-File-ID: 3440\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:47\n"
+"PO-Revision-Date: 2022-10-07 05:52\n"
 
 #. module: quality_control_stock_oca
 #: model:ir.model.fields,field_description:quality_control_stock_oca.field_stock_picking__created_inspections
@@ -141,7 +141,7 @@ msgstr "Qualitätsprüfungen aus Kommissionierung gescheitert"
 #. module: quality_control_stock_oca
 #: model:ir.model,name:quality_control_stock_oca.model_stock_picking
 msgid "Transfer"
-msgstr ""
+msgstr "Transfer"
 
 #. module: quality_control_stock_oca
 #: model_terms:ir.ui.view,arch_db:quality_control_stock_oca.stock_lot_qc_view
