@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/mrp_bom_tracking/i18n/mrp_bom_tracking.pot\n"
 "X-Crowdin-File-ID: 3408\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-08-06 21:48\n"
+"PO-Revision-Date: 2022-10-18 06:57\n"
 
 #. module: mrp_bom_tracking
 #: model_terms:ir.ui.view,arch_db:mrp_bom_tracking.track_bom_template_2
@@ -69,7 +69,7 @@ msgstr ""
 #. module: mrp_bom_tracking
 #: model:ir.model.fields,field_description:mrp_bom_tracking.field_mrp_bom__picking_type_id
 msgid "Operation Type"
-msgstr ""
+msgstr "Vorgangstyp"
 
 #. module: mrp_bom_tracking
 #: model:ir.model.fields,field_description:mrp_bom_tracking.field_mrp_bom__product_tmpl_id
