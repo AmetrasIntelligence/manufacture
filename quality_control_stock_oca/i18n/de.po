@@ -14,7 +14,7 @@ msgstr ""
 "X-Crowdin-File: /[AmetrasIntelligence.manufacture] 13.0/quality_control_stock_oca/i18n/quality_control_stock_oca.pot\n"
 "X-Crowdin-File-ID: 3440\n"
 "Language: de_DE\n"
-"PO-Revision-Date: 2022-10-07 05:52\n"
+"PO-Revision-Date: 2022-12-23 00:58\n"
 
 #. module: quality_control_stock_oca
 #: model:ir.model.fields,field_description:quality_control_stock_oca.field_stock_picking__created_inspections
@@ -67,7 +67,7 @@ msgstr "Los"
 #. module: quality_control_stock_oca
 #: model:ir.model,name:quality_control_stock_oca.model_stock_production_lot
 msgid "Lot/Serial"
-msgstr "Los-/Seriennummer"
+msgstr "Nachverfolgung"
 
 #. module: quality_control_stock_oca
 #: model:ir.model.fields,field_description:quality_control_stock_oca.field_qc_inspection__picking_id
