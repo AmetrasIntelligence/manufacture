@@ -14,22 +14,23 @@
         <field name="view_mode">tree,form</field>
         <field
             name="domain"
-        >[('picking_id', '=', active_id), ('state', 'not in', ['draft', 'waiting'])]
-        </field>
+        >[('picking_id', '=', active_id), ('state', 'not in', ['draft', 'waiting'])]</field>
     </record>
     <record id="action_qc_inspection_per_picking_passed" model="ir.actions.act_window">
         <field name="name">Quality inspection from picking passed</field>
         <field name="res_model">qc.inspection</field>
         <field name="view_mode">tree,form</field>
-        <field name="domain">[('picking_id', '=', active_id), ('state', '=', 'success')]
-        </field>
+        <field
+            name="domain"
+        >[('picking_id', '=', active_id), ('state', '=', 'success')]</field>
     </record>
     <record id="action_qc_inspection_per_picking_failed" model="ir.actions.act_window">
         <field name="name">Quality inspections from picking failed</field>
         <field name="res_model">qc.inspection</field>
         <field name="view_mode">tree,form</field>
-        <field name="domain">[('picking_id', '=', active_id), ('state', '=', 'failed')]
-        </field>
+        <field
+            name="domain"
+        >[('picking_id', '=', active_id), ('state', '=', 'failed')]</field>
     </record>
     <record model="ir.ui.view" id="stock_picking_qc_view">
         <field name="name">stock.picking.qc.view</field>

@@ -29,12 +29,11 @@ class QcInspection(models.Model):
 
     @api.depends("object_id")
     def _compute_picking(self):
-        for inspection in self:
-            if inspection.object_id:
-                if inspection.object_id._name == "stock.move":
-                    inspection.picking_id = inspection.object_id.picking_id
-                elif inspection.object_id._name == "stock.picking":
-                    inspection.picking_id = inspection.object_id
+        for inspection in self.filtered("object_id"):
+            if inspection.object_id._name == "stock.move":
+                inspection.picking_id = inspection.object_id.picking_id
+            elif inspection.object_id._name == "stock.picking":
+                inspection.picking_id = inspection.object_id
 
     @api.depends("object_id")
     def _compute_lot(self):
@@ -44,17 +43,13 @@ class QcInspection(models.Model):
         move_lines = self.env["stock.move.line"].search(
             [("lot_id", "!=", False), ("move_id", "in", [move.id for move in moves])]
         )
-
-        for inspection in self:
-            if inspection.object_id:
-                if inspection.object_id._name == "stock.move":
-                    inspection.lot_id = first(
-                        move_lines.filtered(
-                            lambda line: line.move_id == inspection.object_id
-                        )
-                    ).lot_id
-                elif inspection.object_id._name == "stock.lot":
-                    inspection.lot_id = inspection.object_id
+        for inspection in self.filtered("object_id"):
+            if inspection.object_id._name == "stock.move":
+                inspection.lot_id = first(
+                    move_lines.filtered(lambda x: x.move_id == inspection.object_id)
+                ).lot_id
+            elif inspection.object_id._name == "stock.lot":
+                inspection.lot_id = inspection.object_id
 
     @api.depends("object_id")
     def _compute_product_id(self):
