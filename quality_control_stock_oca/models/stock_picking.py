@@ -55,22 +55,27 @@ class StockPicking(models.Model):
     def action_done(self):
         res = super().action_done()
         inspection_model = self.env["qc.inspection"]
-        qc_trigger = self.env["qc.trigger"].search(
-            [("picking_type_id", "=", self.picking_type_id.id)]
-        )
-        for operation in self.move_lines:
-            trigger_lines = set()
-            for model in [
-                "qc.trigger.product_category_line",
-                "qc.trigger.product_template_line",
-                "qc.trigger.product_line",
-            ]:
-                partner = self.partner_id if qc_trigger.partner_selectable else False
-                trigger_lines = trigger_lines.union(
-                    self.env[model].get_trigger_line_for_product(
-                        qc_trigger, operation.product_id, partner=partner
+        qc_trigger_model = self.env["qc.trigger"]
+        for picking in self:
+            qc_trigger = qc_trigger_model.search(
+                [("picking_type_id", "=", picking.picking_type_id.id)]
+            )
+            for operation in picking.move_lines:
+                trigger_lines = set()
+                for model in [
+                    "qc.trigger.product_category_line",
+                    "qc.trigger.product_template_line",
+                    "qc.trigger.product_line",
+                ]:
+                    partner = (
+                        picking.partner_id if qc_trigger.partner_selectable else False
                     )
-                )
-            for trigger_line in _filter_trigger_lines(trigger_lines):
-                inspection_model._make_inspection(operation, trigger_line)
+                    trigger_lines = trigger_lines.union(
+                        self.env[model].get_trigger_line_for_product(
+                            qc_trigger, operation.product_id, partner=partner
+                        )
+                    )
+                for trigger_line in _filter_trigger_lines(trigger_lines):
+                    inspection_model._make_inspection(operation, trigger_line)
+
         return res
